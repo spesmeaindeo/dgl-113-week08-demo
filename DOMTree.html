@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="examples.css" />
+    <!--Textbook DOM example of Lesson 13-->
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/img0.jpg" alt="Header image" />
+      <nav>
+        <ul>
+          <li>
+            <a href="DOMTree.html">DOM Tree</a>
+          </li>
+          <li>
+            <a href="DOMops.html">DOM Qry & Ops</a>
+          </li>
+          <li>
+            <a href="attributes.html">Attributes</a>
+          </li>
+          <li>
+            <a href="dynamicmenu.html" target="new">Dynamic Menu</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>DOM Tree Example</h2>
+      <div id="buttons">
+        <button onclick="showNodes(document.getElementById('toDoList'))">
+          Show toDoList Node Tree
+        </button>
+        <button onclick="showNodes()">Show document Node Tree</button>
+      </div>
+      <ol id="toDoList">
+        <li>Mow the lawn</li>
+        <li>Clean the windows</li>
+        <li>Answer your email</li>
+      </ol>
+      <p id="toDoNotes">
+        Make sure all these are completed by 8pm so you can watch the game on
+        TV!
+      </p>
+      <hr />
+    </main>
+    <script src="showNodes.js"></script>
+  </body>
+</html>

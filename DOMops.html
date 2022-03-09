@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This page is used to illustrate basic DOM node operations
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="examples.css" />
+    <title>Lesson 13 Examples</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/img0.jpg" alt="Header image" />
+      <nav>
+        <ul>
+          <li>
+            <a href="DOMTree.html">DOM Tree</a>
+          </li>
+          <li>
+            <a href="DOMops.html">DOM Qry & Ops</a>
+          </li>
+          <li>
+            <a href="attributes.html">Attributes</a>
+          </li>
+          <li>
+            <a href="dynamicmenu.html" target="new">Dynamic Menu</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <div id="buttons">
+        <button>Add-default</button>
+        <button>Add-any position</button>
+        <button>Add-innerHTML</button>
+      </div>
+      <h2>Basic DOM Operations</h2>
+      <section id="section1">
+        <h3>Things To Do</h3>
+        <p>The list has <span>3</span> items.</p>
+        <ol id="toDoList">
+          <li>Mow the lawn</li>
+          <li>Clean the windows</li>
+          <li>Answer your email</li>
+        </ol>
+        <p id="toDoNotes">
+          Make sure all these are completed by 8pm so you can watch the game on
+          TV!
+        </p>
+      </section>
+      <section id="section2">
+        <h3>Practice with this list</h3>
+        <ol id="toDoList">
+          <li>Mow the lawn</li>
+          <li>Clean the windows</li>
+          <li>Answer your email</li>
+        </ol>
+        <p id="toDoNotes">
+          Make sure all these are completed by 8pm so you can watch the
+        </p>
+      </section>
+    </main>
+    <footer id="footer">footer of the page</footer>
+    <script src="DOMops.js"></script>
+  </body>
+</html>
